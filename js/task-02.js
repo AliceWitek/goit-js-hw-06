@@ -7,5 +7,4 @@ const ingredients = [
     'Condiments',
 ];
 const $ingredients = document.querySelector("*ingredients");
-const markup = ingredients.map(ingredient) => `<li>${ingredient}</li>`.join("")
-$ingredients.insertAdjacentHTML("beforeend", markup);
+const markup = ingredients.map((ingredient) => `<li>${ingredient}</li>`.join("") $ingredients.insertAdjacentHTML("beforeend", markup);
