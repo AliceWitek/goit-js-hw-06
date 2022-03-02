@@ -6,7 +6,7 @@ const ingredients = [
     'Herbs',
     'Condiments',
 ];
-const $ingredients = document.querySelector("*ingredients");
+const $ingredients = document.querySelector("#ingredients");
 const markup = ingredients.map((ingredient) => `<li>${ingredient}</li>`).join("");
 
 
